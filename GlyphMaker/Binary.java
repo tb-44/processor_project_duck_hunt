@@ -94,15 +94,15 @@ public class Binary {
         return decValue;
     }
 
-    private void setValue(int num) {
-        decValue = num;
-        value = this.intToBin(decValue, places);
-    }
+    // private void setValue(int num) {
+    // decValue = num;
+    // value = this.intToBin(decValue, places);
+    // }
 
-    private void setValue(String num) {
-        value = num;
-        decValue = this.binToInt(num);
-    }
+    // private void setValue(String num) {
+    // value = num;
+    // decValue = this.binToInt(num);
+    // }
 
     public void multiply(int num) {
 

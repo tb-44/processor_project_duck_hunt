@@ -8,14 +8,12 @@ package GlyphMaker;
 import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.Rectangle;
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
-import java.awt.event.MouseMotionAdapter;
 import static java.lang.Math.pow;
 import java.util.ArrayList;
 import javax.swing.JComponent;
 
 public class ColorPalette extends JComponent {
+    private static final long serialVersionUID = 1L;
     ArrayList<RecWrap> pix;
     int x, y, pixelSize, xmod, ymod, index, absX, absY;
     Color c;

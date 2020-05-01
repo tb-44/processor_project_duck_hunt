@@ -1001,18 +1001,18 @@ public class Instruction {
         binaryInstructions.add(this.createBinaryMachineCode());
     }
 
-    private void jumpAndBranchImm(int num) {
-        addr = num;
-        binAddr = this.getBinary(addr, 16);
-        binImm = binAddr.substring(8, 16);
-        b2 = "1110";
-        b1 = "1101";
-        binaryInstructions.add(this.createBinaryMachineCode());
-        binImm = binAddr.substring(0, 8);
-        b2 = "1110";
-        b1 = "1111";
-        binaryInstructions.add(this.createBinaryMachineCode());
-    }
+    // private void jumpAndBranchImm(int num) {
+    // addr = num;
+    // binAddr = this.getBinary(addr, 16);
+    // binImm = binAddr.substring(8, 16);
+    // b2 = "1110";
+    // b1 = "1101";
+    // binaryInstructions.add(this.createBinaryMachineCode());
+    // binImm = binAddr.substring(0, 8);
+    // b2 = "1110";
+    // b1 = "1111";
+    // binaryInstructions.add(this.createBinaryMachineCode());
+    // }
 
     private Label labelSubstitution(String str) {
         for (Label lab : labels) {
