@@ -172,7 +172,7 @@ public class Find extends javax.swing.JFrame {
             jTextArea1.append(mips.getName() + " has been selected\n");
 
         } else {
-            mipsfc.hide();
+            // mipsfc.hide();
         }
     }
 

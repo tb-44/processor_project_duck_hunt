@@ -1055,7 +1055,7 @@ public class Instruction {
     public String parseString(String str) {
         String result = "";
         String temp = str;
-        boolean signed = false;
+        // boolean signed = false;
         if (str.equals("")) {
             result = "";
         } else {
@@ -1097,7 +1097,7 @@ public class Instruction {
     }
 
     public String getHex(String str, int places) {
-        String result = "";
+        // String result = "";
         if (!parseString(str).equals("")) {
             Integer tempInt = Integer.parseInt(parseString(str));
             Binary bin = new Binary(tempInt, places);
@@ -1108,14 +1108,14 @@ public class Instruction {
     }
 
     public String getHex(int num, int places) {
-        String result = "";
+        // String result = "";
         Binary bin = new Binary(num, places);
         Hex h = new Hex(bin.getValue());
         return h.getHex();
     }
 
     public String getHex(String str) {
-        String result = "";
+        // String result = "";
         Binary bin = new Binary(str);
         Hex h = new Hex(bin.getValue());
         return h.getHex();
