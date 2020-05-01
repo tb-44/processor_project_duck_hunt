@@ -58,7 +58,6 @@ public class Binary {
     }
 
     public String subtract(String num) {
-        int temp = decValue - this.binToInt(num);
         return this.intToBin(decValue, places);
     }
 
@@ -69,7 +68,6 @@ public class Binary {
     }
 
     public String subtract(int num) {
-        int temp = decValue - num;
         return this.intToBin(decValue, places);
     }
 
@@ -85,16 +83,6 @@ public class Binary {
 
     public int getDecimalValue() {
         return decValue;
-    }
-
-    private void setValue(int num) {
-        decValue = num;
-        value = this.intToBin(decValue, places);
-    }
-
-    private void setValue(String num) {
-        value = num;
-        decValue = this.binToInt(num);
     }
 
     public String intToBin(int num, int places) {

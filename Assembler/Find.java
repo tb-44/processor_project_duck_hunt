@@ -26,6 +26,7 @@ import javax.swing.JFileChooser;
 import static java.lang.Math.pow;
 
 public class Find extends javax.swing.JFrame {
+    private static final long serialVersionUID = 1L;
     decoder dec;
     boolean littleEndian;
     boolean fillFile;
@@ -105,7 +106,7 @@ public class Find extends javax.swing.JFrame {
         jTextField1.setEnabled(false);
         jTextField1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField1ActionPerformed(evt);
+                actionPerformed(evt);
             }
         });
 
@@ -165,7 +166,7 @@ public class Find extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {// GEN-FIRST:event_jButton1ActionPerformed
         int val = mipsfc.showOpenDialog(Find.this);
-        if (val == mipsfc.APPROVE_OPTION) {
+        if (val == JFileChooser.APPROVE_OPTION) {
             mips = mipsfc.getSelectedFile();
             directory = mipsfc.getCurrentDirectory();
             jTextArea1.append(mips.getName() + " has been selected\n");
@@ -173,25 +174,25 @@ public class Find extends javax.swing.JFrame {
         } else {
             mipsfc.hide();
         }
-    }// GEN-LAST:event_jButton1ActionPerformed
+    }
 
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {// GEN-FIRST:event_jButton2ActionPerformed
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {
         jCheckBox1.setSelected(false);
         jTextField1.setText("16");
         jTextField1.setEnabled(false);
         jCheckBox2.setSelected(false);
         jTextArea1.setText("The Assembler has been reset.\n");
 
-    }// GEN-LAST:event_jButton2ActionPerformed
+    }
 
-    private void jCheckBox1ActionPerformed(java.awt.event.ActionEvent evt) {// GEN-FIRST:event_jCheckBox1ActionPerformed
+    private void jCheckBox1ActionPerformed(java.awt.event.ActionEvent evt) {
         if (jCheckBox1.isSelected()) {
             jTextArea1.append("Little Endian has been selected\n");
         } else {
             jTextArea1.append("Little Endian has been deselected\n");
         }
 
-    }// GEN-LAST:event_jCheckBox1ActionPerformed
+    }
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {
         try {
