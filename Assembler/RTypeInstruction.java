@@ -166,7 +166,6 @@ public class RTypeInstruction {
             default:
                 break;
         }
-
     }
 
     public String getAssembly() {
