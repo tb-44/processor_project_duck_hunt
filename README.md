@@ -7,3 +7,7 @@ This documentation includes the description to our CR16 ISA Processor project (D
 ![Image description](images/duck_hunt_poster.png)
 
 [Poster link](images/DuckHunt_Poster.pdf)
+
+## Processor Datapath Diagram
+
+![Image description](images/datapath.png)
