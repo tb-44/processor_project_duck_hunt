@@ -160,11 +160,10 @@ public class Find extends javax.swing.JFrame {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 36, Short.MAX_VALUE)
                         .addComponent(jButton2)).addComponent(jScrollPane1))
                 .addContainerGap()));
-
         pack();
-    }// </editor-fold>//GEN-END:initComponents
+    }
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {// GEN-FIRST:event_jButton1ActionPerformed
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {
         int val = mipsfc.showOpenDialog(Find.this);
         if (val == JFileChooser.APPROVE_OPTION) {
             mips = mipsfc.getSelectedFile();
@@ -280,7 +279,6 @@ public class Find extends javax.swing.JFrame {
         });
     }
 
-    // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;

@@ -14,7 +14,7 @@ public class RTypeInstruction {
     public String function = "";
     public boolean littleEndian;
 
-    public void RTypeInstruction(String str, boolean _littleEndian) {
+    public void RTypeInstructions(String str, boolean _littleEndian) {
         littleEndian = _littleEndian;
         String temp[] = str.split(" ");
         String temp1[] = temp[1].split(", ");

@@ -13,7 +13,7 @@ public class ITypeInstruction {
     public String shift;
     public String function;
 
-    public void ITypeInstruction(String str) {
+    public void ITypeInstructions(String str) {
         String temp[] = str.split(",");
         rs = temp[1];
         rt = temp[2];
