@@ -30,7 +30,7 @@ The Assembler program was written to assemble all the application assembly code 
 
 Example of assembly code:
 
-![Image description](images/assemblyCode.png)
+![Image description](images/assembly_code.png)
 
 ## GlyphMaker Program Interface
 
