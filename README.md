@@ -21,3 +21,26 @@ The system consists of the Datapath, control finite state machine (FSM), ALU con
 This diagram is the complete datapath infrastructure (digital logic design). Including the program counter (PC), Instruction Registers (IR), Sign Extension, and Memory and Memory-Mapped I/O system.
 
 ![Image description](images/datapath.png)
+
+## CR16 Assembler
+
+The Assembler program was written to assemble all the application assembly code that is written into machine code for the processor to execute. The GUI interface is used to select the assembly file code and generate the hexidecimal machine code.
+
+![Image description](images/Assembler.png)
+
+Example of assembly code:
+
+![Image description](images/assemblyCode.png)
+
+## GlyphMaker Program Interface
+
+The GlyphMaker program was written to create all the necessary 16x16 glyphs for the Duck Hunt Game application. All glyphs were built and used for VGA display. The sample shown is of one of the ducks we developed (drawing on the interface).
+
+![Image description](images/GlyphMaker.png)
+
+## I/O Design
+
+The duck hunt game requires the use of a Light Zapper gun. The I/O needed was designed/developed with the following circuit board for user control.
+
+![Image description](images/schematic.png)
+![Image description](images/duckBlasterBoard.png)
