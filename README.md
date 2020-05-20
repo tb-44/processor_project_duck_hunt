@@ -6,4 +6,4 @@ This documentation includes the description to our CR16 ISA Processor project (D
 
 ![Image description](images/DuckHunt_Poster.pdf)
 
-[a relative link](DuckHunt_Poster.pdf)
+[Poster](images/DuckHunt_Poster.pdf)
