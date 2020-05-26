@@ -6,8 +6,6 @@ This documentation is an overall description to the CR16 ISA Processor project (
 
 ![Image description](images/duckHunt_poster.png)
 
-[Poster link](images/DuckHunt_Poster.pdf)
-
 ## Complete CR16 Processor Diagram
 
 This diagram is the complete CR16 processor. The processor executes all the assembly instructions generated to run the application (Duck Hunt Game). The entire processor was designed and built from scratch using FPGA (using Verilog code).
