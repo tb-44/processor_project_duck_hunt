@@ -44,4 +44,4 @@ The duck hunt game requires the use of a Light Zapper gun. The I/O needed was de
 
 ## Duck Hunt flying simple example
 
-![Image description](images/duckhunt.webp)
+![Image description](https://media.giphy.com/media/JRgi8TGRKzAVoBXVQe/giphy.gif)
