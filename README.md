@@ -41,3 +41,7 @@ The GlyphMaker program was written to create all the necessary 16x16 glyphs for 
 The duck hunt game requires the use of a Light Zapper gun. The I/O needed was designed/developed with the following circuit board for user control.
 
 ![Image description](images/schematic.png)
+
+## Duck flying example
+
+![Image description](https://giphy.com/gifs/JRgi8TGRKzAVoBXVQe)
