@@ -32,7 +32,7 @@ Example of assembly code:
 
 ## GlyphMaker Program Interface
 
-The GlyphMaker program was written to create all the necessary 16x16 glyphs for the Duck Hunt Game application. All glyphs were built and used for VGA display. The sample shown is of one of the ducks we developed (drawing on the interface).
+The GlyphMaker program (Java) was written to create all the necessary 16x16 glyphs for Duck Hunt Game application. All glyphs were built for VGA display. The sample shown below is of one of the ducks developed (drawing on the interface).
 
 ![Image description](images/GlyphMaker.png)
 
