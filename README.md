@@ -38,10 +38,10 @@ The GlyphMaker program was written to create all the necessary 16x16 glyphs for 
 
 ## I/O Design
 
-The duck hunt game requires the use of a Light Zapper gun. The I/O needed was designed/developed with the following circuit board for user control.
+The duck hunt game requires the use of a Light Zapper gun. The I/O was designed/developed with the following circuit board for user controls.
 
 ![Image description](images/schematic.png)
 
-## Simple example of duck flying across the screen (early version)
+<!-- ## Simple example of duck flying across the screen (early version)
 
-![Image description](https://media.giphy.com/media/JRgi8TGRKzAVoBXVQe/giphy.gif)
+![Image description](https://media.giphy.com/media/JRgi8TGRKzAVoBXVQe/giphy.gif) -->
